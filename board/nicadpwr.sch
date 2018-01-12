@@ -926,4 +926,8 @@ Wire Wire Line
 Wire Wire Line
 	9665 1760 9665 1575
 Connection ~ 9665 1575
+Text Notes 2450 6475 0    60   ~ 0
+TODO: Put Cap after diode
+Text Notes 5275 5350 0    60   ~ 0
+This pulldown isnt needed. R2 does the job
 $EndSCHEMATC
