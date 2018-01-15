@@ -661,6 +661,32 @@ F 3 "" H 8120 2615 50  0000 C CNN
 	1    8120 2615
 	1    0    0    -1  
 $EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5A51D0C2
+P 9185 1205
+F 0 "#FLG019" H 9185 1300 50  0001 C CNN
+F 1 "PWR_FLAG" H 9185 1385 50  0000 C CNN
+F 2 "" H 9185 1205 50  0000 C CNN
+F 3 "" H 9185 1205 50  0000 C CNN
+	1    9185 1205
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG020
+U 1 1 5A51D11C
+P 9185 1760
+F 0 "#FLG020" H 9185 1855 50  0001 C CNN
+F 1 "PWR_FLAG" H 9185 1940 50  0000 C CNN
+F 2 "" H 9185 1760 50  0000 C CNN
+F 3 "" H 9185 1760 50  0000 C CNN
+	1    9185 1760
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 6475 0    60   ~ 0
+TODO: Put Cap after diode
+Text Notes 5275 5350 0    60   ~ 0
+This pulldown isnt needed. R2 does the job
 Wire Wire Line
 	2400 1700 2400 1900
 Wire Wire Line
@@ -894,28 +920,6 @@ Wire Wire Line
 Connection ~ 7635 2300
 Wire Wire Line
 	5400 2380 4705 2380
-$Comp
-L PWR_FLAG #FLG019
-U 1 1 5A51D0C2
-P 9185 1205
-F 0 "#FLG019" H 9185 1300 50  0001 C CNN
-F 1 "PWR_FLAG" H 9185 1385 50  0000 C CNN
-F 2 "" H 9185 1205 50  0000 C CNN
-F 3 "" H 9185 1205 50  0000 C CNN
-	1    9185 1205
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG020
-U 1 1 5A51D11C
-P 9185 1760
-F 0 "#FLG020" H 9185 1855 50  0001 C CNN
-F 1 "PWR_FLAG" H 9185 1940 50  0000 C CNN
-F 2 "" H 9185 1760 50  0000 C CNN
-F 3 "" H 9185 1760 50  0000 C CNN
-	1    9185 1760
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9185 1205 9670 1205
 Wire Wire Line
@@ -926,8 +930,4 @@ Wire Wire Line
 Wire Wire Line
 	9665 1760 9665 1575
 Connection ~ 9665 1575
-Text Notes 2450 6475 0    60   ~ 0
-TODO: Put Cap after diode
-Text Notes 5275 5350 0    60   ~ 0
-This pulldown isnt needed. R2 does the job
 $EndSCHEMATC
