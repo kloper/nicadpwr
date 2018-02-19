@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP OPA237NA
+D Low Voltage Audio Power Amp.
+K Audio Power OpAmp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
 $CMP Si4562DY
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
